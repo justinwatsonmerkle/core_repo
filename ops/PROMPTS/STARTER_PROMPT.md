@@ -4,5 +4,5 @@ Use the standard start prompt:
 If you need a mid-session seed (rare), use:
 - `core/ops/PROMPTS/HANDOVER.md`
 
-Rule:
-- Every chat must end with a COMMIT PACK (updated files + changelog + session_harvest).
+Reminder:
+- Use `WRAP_UP` (or `CHECKPOINT`) to trigger zip output of updated files (per SOP).
