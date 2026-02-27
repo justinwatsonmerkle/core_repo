@@ -1,0 +1,12 @@
+# Career OS – ROLES
+
+Roles are “modes of operation”. Each chat uses ONE role only.
+
+- COACH
+- BUSINESS_ANALYST
+- CAREER_ARCHITECT
+- POSITIONING_STRATEGIST
+- EXECUTION_MANAGER
+- COMMS_EDITOR
+- EVIDENCE_CURATOR
+- AUDITOR (optional)
