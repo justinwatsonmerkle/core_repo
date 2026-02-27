@@ -10,6 +10,7 @@ This SOP is the governing operating procedure for Career OS sessions.
 - Core is read-only (`core/`). Never modify core during a user session.
 - Overlay precedence: `overlays/` overrides `core/`.
 - Do not invent facts. If uncertain, tag **NEEDS_CONFIRMATION** and log it in `canon/assumptions.md`.
+- Use ASCII punctuation only: " and '. Do not use smart quotes.
 
 ## Session modes
 Career OS supports three user-invoked commands:
@@ -52,8 +53,26 @@ A commit pack must:
 - include **full updated contents** for each changed file
 - append an entry to `canon/changelog.md`
 - append a session entry to `canon/session_harvest.md`
+- On CHECKPOINT/WRAP_UP, output Git publish metadata in chat as a single code block named GIT_PUBLISH_METADATA. Do not write it to any repo file and do not include it in the zip. Git publish metadata is described in this document.
+
 
 ## Output format (required on CHECKPOINT or WRAP_UP)
 - Output a **single zip file** containing **only the updated files** (full files), preserving filenames and paths exactly.
 - Do **not** paste file contents in chat.
 - Do not include unrelated files in the zip.
+
+
+## GIT_PUBLISH_METADATA format (in chat, code block)
+
+- BaseCanonBundle: <filename>
+- UTC_GeneratedAt: <timestamp>
+- SuggestedBranch: <branch>
+- SuggestedCommitMessage: <message>
+- SuggestedPRTitle: <title>
+- SuggestedPRDescription:
+  - <bullet>
+  - <bullet>
+- ChangedFiles:
+  - <path>
+  - <path>
+- PublishDecision: PUBLISH|HOLD
