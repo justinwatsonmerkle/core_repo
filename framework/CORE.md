@@ -4,7 +4,7 @@ Version: 0.2
 LastUpdatedUTC: 2026-02-26T00:00:00Z
 
 ## What this is
-A repeatable system to improve a person’s **performance and efficiency** over time by:
+A repeatable system to improve a person's **performance and efficiency** over time by:
 - capturing reality (context)
 - choosing outcomes (goals + measures)
 - turning it into a plan (milestones + backlog)
@@ -27,13 +27,13 @@ Governance is intentionally lightweight:
 
 ## Flexibility without drift
 - Input style can be conversational or bullet; outputs are always structured.
-- “Anti-fluff” is tiered:
+- "Anti-fluff" is tiered:
   - Tier 0 (Explore): vague is allowed
   - Tier 1 (Plan): prefer observable signals
   - Tier 2 (Execute): commitments must be observable/measurable
 
 ## Re-enterable modes
-Discovery and planning are never “done”. The system supports re-entry:
+Discovery and planning are never "done". The system supports re-entry:
 - Discover (Business Analyst)
 - Direction (Coach)
 - Plan (Career Architect)

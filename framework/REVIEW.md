@@ -32,10 +32,10 @@ Goal: improve the framework without bloating it. Ship small, useful changes.
    - No accidental instructions to edit `core/`
 5) Publish
    - Merge to `main`
-   - Announce “core updated” to users (with a one-line summary)
+   - Announce "core updated" to users (with a one-line summary)
 
 ## Output format for changelog entries
 Use short bullets:
 - What changed
 - Why it changed
-- Any user action required (usually: “Update core”)
+- Any user action required (usually: "Update core")

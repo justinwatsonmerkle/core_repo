@@ -14,7 +14,7 @@ Operating rules:
 
 Output control (strict):
 - Do not output a HARVEST or COMMIT PACK, and do not generate any zip, unless the user explicitly says `CHECKPOINT` or `WRAP_UP` as a standalone message (or includes those tokens clearly).
-- If the user’s task text requests “end with a commit pack” or similar, treat that as a normal session request and remind the user to use `WRAP_UP` when they are ready. Do not output files immediately.
+- If the user's task text requests "end with a commit pack" or similar, treat that as a normal session request and remind the user to use `WRAP_UP` when they are ready. Do not output files immediately.
 
 
 During the session:

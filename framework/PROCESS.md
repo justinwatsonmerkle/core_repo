@@ -30,5 +30,5 @@ Any of these triggers re-entry into Discover/Plan:
 - monthly review checkpoint
 
 ## Evidence rule
-- Any claimed “impact” should have a reference in `canon/evidence_portfolio.md`.
+- Any claimed "impact" should have a reference in `canon/evidence_portfolio.md`.
 - If unknown or assumed: mark it NEEDS_CONFIRMATION and log it in `canon/assumptions.md`.

@@ -2,7 +2,7 @@
 
 LastUpdatedUTC: 2026-02-27T00:00:00Z
 
-Roles are “modes of operation”. Each chat uses **ONE role** for questioning and decision-making.
+Roles are "modes of operation". Each chat uses **ONE role** for questioning and decision-making.
 
 ## Critical rule: write boundaries
 To prevent role bleed, each role has **allowed write targets** (canon files it may update directly).

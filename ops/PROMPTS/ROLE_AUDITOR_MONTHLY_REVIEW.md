@@ -29,7 +29,7 @@ OUTPUTS (in this order)
    - Overlay precedence rules still correct
    - Prompts do not instruct edits to `core/`
 4) Changelog entry text (ready to paste into framework/CHANGELOG.md)
-5) “User-facing announcement” draft (3–6 lines)
+5) "User-facing announcement" draft (3–6 lines)
    - What changed
    - Why
    - What users need to do (usually: update core)

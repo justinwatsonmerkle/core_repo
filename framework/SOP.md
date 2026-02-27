@@ -25,13 +25,13 @@ Career OS supports three user-invoked commands:
 User message includes: `CHECKPOINT`
 - Produce a **minimal** HARVEST + COMMIT PACK.
 - Only include files that are clearly updated based on the conversation so far.
-- Output as a **single zip file** (see “Output format”).
+- Output as a **single zip file** (see "Output format").
 
 ### 3) WRAP_UP (end the session)
 User message includes: `WRAP_UP`
 - Produce the full HARVEST + COMMIT PACK.
 - Include all relevant canon updates.
-- Output as a **single zip file** (see “Output format”).
+- Output as a **single zip file** (see "Output format").
 
 ## Role discipline
 - Questioning and decisions must stay within **one role** per session.

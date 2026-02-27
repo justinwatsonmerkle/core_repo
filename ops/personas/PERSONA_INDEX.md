@@ -13,7 +13,7 @@ Persona packs **do not change** the core framework rules.
 
 ## Composition model
 
-A user’s persona is composed of up to four components:
+A user's persona is composed of up to four components:
 1) Band (seniority): `BAND_*`
 2) Track (focus): `TRACK_*`
 3) Time budget: `TIME_*`
