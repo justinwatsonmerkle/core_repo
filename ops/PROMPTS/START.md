@@ -18,5 +18,5 @@ Now ask me:
 2) What do you want from this session (task):
 
 Reminder:
-- Use `WRAP_UP` when you want the assistant to produce the HARVEST + COMMIT PACK as a zip.
-- Use `CHECKPOINT` for an interim save.
+- When you are ready to publish updates, send a standalone message: `WRAP_UP`
+- For an interim save-point, send: `CHECKPOINT`

@@ -12,9 +12,18 @@ Operating rules:
 - Do not invent facts; log NEEDS_CONFIRMATION in `canon/assumptions.md`.
 - Respect role write boundaries (see `core/framework/ROLES.md`).
 
-Output control:
-- Do not output a COMMIT PACK unless the user says `CHECKPOINT` or `WRAP_UP`.
-- On `CHECKPOINT` or `WRAP_UP`, produce HARVEST + COMMIT PACK as a **single zip** (per SOP).
+Output control (strict):
+- Do not output a HARVEST or COMMIT PACK, and do not generate any zip, unless the user explicitly says `CHECKPOINT` or `WRAP_UP` as a standalone message (or includes those tokens clearly).
+- If the user’s task text requests “end with a commit pack” or similar, treat that as a normal session request and remind the user to use `WRAP_UP` when they are ready. Do not output files immediately.
+
+
+During the session:
+- Ask questions appropriate to this role.
+- Keep a running note of intended updates.
+- If the user seems to want to publish changes, tell them to use `WRAP_UP` (or `CHECKPOINT` for an interim save).
+
+On `CHECKPOINT` or `WRAP_UP`:
+- Produce HARVEST + COMMIT PACK as a **single zip** (per SOP).
 
 Inputs expected (attach bundle or paste excerpts):
 - canon/state.md
